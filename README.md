@@ -54,7 +54,7 @@ Provide a way for visitors to contact me through a contact form and by displayin
 
 ## Live Demo
 
-- [Live Demo](https://your-live-demo-link.com)
+- [Live Demo](https://liebenbekker.github.io/)
 
 ## Contributing
 
