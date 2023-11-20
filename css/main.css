@@ -1,0 +1,90 @@
+:root{
+    --lblue: rgb(0, 148, 255);
+    --dblue: rgb(15 23 42);
+}
+
+/* Important used to overide scss normalizer */
+h1 {
+    font-size: 4rem !important;
+    color: white !important;
+}
+
+h2 {
+    font-size: 3rem !important;
+    color: rgb(129, 131, 125) !important;
+}
+
+body {
+    background-color: rgb(15 23 42) !important;
+}
+
+p {
+    font-family: "Open Sans";
+    color: white;
+    font-size: 1.1rem;
+}
+
+.blueCol {
+    color: var(--lblue);
+}
+
+.navbar {
+    background-color: var(--dblue);
+}
+
+.navbar div {
+    font-family: "Open Sans" !important;
+    color: white !important;
+}
+
+.center-thing {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.navbar-nav {
+    text-align: center; /* Center the links in the navbar */
+    width: 100%; /* Full width */
+}
+
+.navbar-nav .nav-item {
+    width: 100%; /* Each nav item takes full width */
+    text-align: center; /* Center the text within each nav item */
+    white-space: nowrap;
+}
+
+.marginL {
+    margin-left: -2% !important;
+}
+
+.marginR {
+    margin-right: -2% !important;
+}
+.vertical-navbar .navbar-nav {
+    flex-direction: column;
+}
+
+.vertical-navbar .navbar-nav .nav-link {
+    padding: 8px 16px;
+}
+
+.custom-col {
+    width: 5% !important;
+}
+
+.normal {
+    list-style: none; /* Remove default bullets */
+    color: white;
+  }
+  
+ .normal li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--lblue); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
