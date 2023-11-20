@@ -10,6 +10,10 @@ The goal of this project is to create a personal website that serves as an onlin
 - Responsive Design: Ensures that my portfolio is accessible and looks good on different devices and screen sizes.
 - Bootstrap: Used to increases responsiveness and for the ease of use.
 
+## Set up local environment
+
+Right click on index.html page and select open with default broswer. From this point you can continue browse the website.
+
 ## Key Features (Sections/pages)
 
 ### Home/About Me Section
