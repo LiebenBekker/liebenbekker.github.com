@@ -88,3 +88,6 @@ p {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
   }
 
+  .navbar-toggler-icon {
+      background-color: var(--lblue);
+  }
